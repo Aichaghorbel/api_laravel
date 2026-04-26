@@ -14662,3 +14662,426 @@ Did you mean one of these?
 [2026-04-25 20:00:50] local.INFO: Utilisateur connecté: 6  
 [2026-04-25 20:00:55] local.INFO: Utilisateur connecté: 6  
 [2026-04-25 20:00:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:01:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:01:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:37] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:37] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:45] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:45] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:50] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:50] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:02:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:00] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:00] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:05] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:05] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:10] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:11] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:15] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:16] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:20] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:20] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:25] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:25] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:30] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:30] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:35] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:35] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:47] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:48] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:50] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:50] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:03:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:00] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:01] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:05] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:05] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:10] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:10] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:15] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:15] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:20] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:04:20] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:58:21] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 20:58:25] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 20:58:26] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 20:59:49] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 20:59:53] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 20:59:58] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 21:00:03] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 21:00:08] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 21:00:13] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 21:00:18] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 21:00:45] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:00:50] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:00:55] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:00] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:05] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:10] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:15] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:21] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:26] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:31] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:36] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:41] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:46] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:51] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:01:56] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:02:01] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:02:06] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:02:11] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:02:16] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:02:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:03:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:04:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:05:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:06:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:07:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:08:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:09:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:10:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:11:40] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 21:12:21] local.INFO: Utilisateur connecté: 3  
+[2026-04-25 23:15:33] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 23:15:37] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 23:15:37] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:38] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:38] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:39] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:42] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:42] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:47] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:47] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:52] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:15:52] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:16:20] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:24] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:29] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:35] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:39] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:44] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:50] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:16:55] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:17:00] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:17:05] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:17:10] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:17:14] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:17:23] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 23:17:24] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(101): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(881): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(866): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(164): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\PC\\\\Des...')
+#12 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('errors::404', 'C:\\\\Users\\\\PC\\\\Des...', Array)
+#13 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(87): Illuminate\\View\\Factory->make('errors::404', Array)
+#14 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(629): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#15 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(554): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(460): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(377): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#19 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#20 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\PC\\Desktop\\laravel-back-master\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\PC\\Desktop\\laravel-back-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\PC\\\\Des...')
+#39 {main}
+"} 
+[2026-04-25 23:17:24] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:24] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:28] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:28] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:33] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:33] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:38] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:38] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:43] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:43] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:48] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:48] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:53] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:53] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:58] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:17:58] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:03] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:03] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:08] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:08] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:13] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:13] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:18] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:18] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:23] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:23] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:28] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:28] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:18:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:19:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:19:41] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:40] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:55] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:56] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:58] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:20:58] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:21:03] local.INFO: Utilisateur connecté: 6  
+[2026-04-25 23:21:26] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:31] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:36] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:40] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:46] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:51] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:21:56] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:01] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:06] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:11] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:16] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:21] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:26] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:31] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:36] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:22:41] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:23:40] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:24:40] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:25:40] local.INFO: Utilisateur connecté: 2  
+[2026-04-25 23:26:40] local.INFO: Utilisateur connecté: 2  
