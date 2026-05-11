@@ -15,8 +15,8 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request): JsonResponse
     {
-        // 🔐 Vérifier email + password
-        if (!Auth::attempt($request->only('email', 'password'))) {
+        // 🔐 Vérifier email + password (stateless)
+        if (!Auth::once($request->only('email', 'password'))) {
             return response()->json([
                 'error' => 'Invalid credentials'
             ], 401);
@@ -24,6 +24,23 @@ class AuthenticatedSessionController extends Controller
 
         // 👤 récupérer user
         $user = Auth::user();
+
+        // 🚫 Vérifier si l'utilisateur est suspendu
+        if ($user->status === 'suspendu') {
+            $suspension = \App\Models\Suspension::where('user_id', $user->id)
+                ->orderBy('id', 'desc')
+                ->first();
+                
+            $reason = $suspension ? $suspension->reason : 'Violation des conditions.';
+            
+            // Aucune session n'a été créée grâce à Auth::once()
+
+
+            return response()->json([
+                'error' => 'Compte suspendu',
+                'reason' => $reason
+            ], 403);
+        }
 
         // 🔑 créer token
         $token = $user->createToken('auth_token')->plainTextToken;
@@ -39,10 +56,12 @@ class AuthenticatedSessionController extends Controller
      */
     public function destroy(Request $request): JsonResponse
     {
-        Auth::guard('web')->logout();
+        // Pour Sanctum, la déconnexion se fait généralement côté client en supprimant le token, 
+        // ou ici en révoquant le token actuel si nécessaire.
 
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
+
+        // Pas besoin de session en API
+
 
         return response()->json([], 204); // No Content
     }

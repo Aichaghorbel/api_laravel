@@ -14,6 +14,8 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\ReactionController;
 use App\Http\Controllers\SuspensionController;
 use App\Http\Controllers\StatsController;
+use App\Http\Controllers\PrivateMessageController; // ✅ AJOUT MANQUANT
+
 
 //
 // =======================
@@ -125,4 +127,12 @@ Route::middleware(['auth:sanctum', 'check.status'])->group(function () {
 
     Route::get('/me/history', [UserController::class, 'history']);
 
+
+
+    // Dans les routes protégées par auth:sanctum
+    Route::get('/users/search', [UserController::class, 'search']);
+    
+    Route::get('/messages/unread/count', [PrivateMessageController::class, 'unreadCount']);
+    Route::get('/messages/{userId}', [PrivateMessageController::class, 'index']);
+    Route::post('/messages/{userId}', [PrivateMessageController::class, 'store']);
 });

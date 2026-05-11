@@ -50,11 +50,7 @@ class SuspensionController extends Controller
     // 🔥 MAJ statut
     $userToSuspend->update(['status' => 'suspendu']);
 
-    // 🔥 NOTIFICATION AUTO
-    Notification::create([
-        'user_id' => $userToSuspend->id,
-        'message' => 'Votre compte a été suspendu pour : ' . $request->reason
-    ]);
+
 
     return response()->json([
         'message' => 'Utilisateur suspendu',

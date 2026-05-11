@@ -18,7 +18,7 @@
 return [
     'paths' => ['api/*'], // 🔹 pas '*', juste les routes API
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['http://localhost:4200', 'http://localhost:57104', 'http://localhost:63539'], // Angular
+    'allowed_origins' => ['http://localhost:4200','http://127.0.0.1:4200', 'http://localhost:57104', 'http://localhost:63539'], // Angular
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],

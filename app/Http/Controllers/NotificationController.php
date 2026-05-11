@@ -9,22 +9,26 @@ use App\Models\Notification;
 class NotificationController extends Controller
 {
     // 🔹 Lister toutes les notifications d'un utilisateur
-    public function index(Request $request)
-    {
-        // 🔹 DEBUG : afficher l'id de l'utilisateur connecté
-        $user = $request->user();
-        \Log::info('Utilisateur connecté: '.$user->id);
+   public function index(Request $request)
+{
+    $user = $request->user();
 
-        $notifications = Notification::where('user_id', $user->id)
-            ->latest()
-            ->get();
+    $notifications = Notification::where('user_id', $user->id)
+        ->latest()
+        ->get()
+        ->map(function ($n) {
+            return [
+                'id' => $n->id,
+                'type' => $n->type,
+                'from_user_name' => $n->from_user,   // ✅ PSEUDO
+                'post_title' => $n->post_title,       // ✅ TITRE
+            ];
+        });
 
-        return response()->json([
-            'user_id' => $user->id,
-            'count' => $notifications->count(),
-            'notifications' => $notifications
-        ]);
-    }
+    return response()->json([
+        'notifications' => $notifications
+    ]);
+}
 
     
     

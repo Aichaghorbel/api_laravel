@@ -195,6 +195,24 @@ public function history(Request $request)
 
 }
 
-    
+   public function search(Request $request)
+{
+    $pseudo = $request->query('pseudo', '');
+
+    if (strlen($pseudo) < 2) {
+        return response()->json([]);
+    }
+
+    $currentUserId = $request->user()->id;
+
+    $users = User::where('pseudo', 'LIKE', '%' . $pseudo . '%')
+        ->where('id', '!=', $currentUserId)
+        ->where('status', 'actif')
+        ->select('id', 'pseudo', 'name', 'role')
+        ->limit(8)
+        ->get();
+
+    return response()->json($users);
+} 
     
 }
