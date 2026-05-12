@@ -36,7 +36,27 @@ Route::get('/posts/{id}', [PostController::class, 'show']);
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/categories/{id}', [CategoryController::class, 'show']);
 
-// ✅ AJOUT ICI (PUBLIC)
+// ✅ TEST DATABASE
+Route::get('/test-db', function () {
+    try {
+        return \DB::select('SELECT 1');
+    } catch (\Exception $e) {
+        return $e->getMessage();
+    }
+});
+
+// ✅ CLEAR CACHE
+Route::get('/clear-config', function () {
+    try {
+        \Artisan::call('config:clear');
+        \Artisan::call('cache:clear');
+        return "✅ Cache vidé";
+    } catch (\Exception $e) {
+        return $e->getMessage();
+    }
+});
+
+// ✅ FORCE MIGRATE
 Route::get('/force-migrate', function () {
     try {
         \Artisan::call('migrate', ['--force' => true]);
