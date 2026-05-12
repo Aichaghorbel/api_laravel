@@ -45,17 +45,6 @@ Route::get('/test-db', function () {
     }
 });
 
-// ✅ CLEAR CACHE
-Route::get('/clear-config', function () {
-    try {
-        \Artisan::call('config:clear');
-        \Artisan::call('cache:clear');
-        return "✅ Cache vidé";
-    } catch (\Exception $e) {
-        return $e->getMessage();
-    }
-});
-
 // ✅ FORCE MIGRATE
 Route::get('/force-migrate', function () {
     try {
