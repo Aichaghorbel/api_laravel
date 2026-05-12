@@ -36,6 +36,17 @@ Route::get('/posts/{id}', [PostController::class, 'show']);
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/categories/{id}', [CategoryController::class, 'show']);
 
+// ✅ AJOUT ICI (PUBLIC)
+Route::get('/force-migrate', function () {
+    try {
+        \Artisan::call('migrate', ['--force' => true]);
+        return "✅ Migration exécutée";
+    } catch (\Exception $e) {
+        return $e->getMessage();
+    }
+});
+
+
 
 //
 // =======================
